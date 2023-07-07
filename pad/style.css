@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  max-width: 600px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #5cb85c; /* Cor de fundo ao passar o mouse */
+}
+
+button.selected {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+button.red {
+  background-color: #d9534f;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo vermelha */
+}
+
+button.green {
+  background-color: #5cb85c;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo verde */
+}
+
+button.cana {
+  background-color: #75b343;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}
+button.rosa {
+  background-color: #d80065;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.blue {
+  background-color: #428bca;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.roxo {
+  background-color: #8600f3;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.green2 {
+  background-color: #00f74a;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.laranja {
+  background-color: #f58b00;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.abobora {
+  background-color: #ec9a00;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.amarelo {
+  background-color: #f1ee03;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.blue2 {
+  background-color: #42c1ca;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.lilas {
+  background-color: #ca42b3;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Cor de fundo azul */
+}button.gray {
+  background-color: #444444;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
